@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Things I've built — at work, in competitions, and for fun.
-nav: true
+nav: false
 nav_order: 4
 display_categories: [work, kaggle]
 horizontal: false
