@@ -3,7 +3,7 @@ layout: page
 title: reading
 permalink: /reading/
 description: Blogs and newsletters I actually read — ML engineering, systems, and the occasional rabbit hole.
-nav: true
+nav: false
 nav_order: 5
 ---
 
