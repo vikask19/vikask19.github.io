@@ -10,11 +10,13 @@ category: work
 Production semantic search system enabling real-time document similarity and retrieval across a corpus of 20M+ enterprise documents.
 
 **What it does:**
+
 - Dense embedding-based search with sub-600ms end-to-end latency
 - Supports fuzzy matching, semantic similarity, and hybrid retrieval
 - Scales to millions of queries per day in a multi-tenant environment
 
 **Tech stack:**
+
 - Qdrant vector database for dense embedding storage and ANN retrieval
 - HuggingFace sentence transformers for document encoding
 - FastAPI serving layer with async processing

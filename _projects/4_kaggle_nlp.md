@@ -11,13 +11,14 @@ Competitive ML on real-world NLP and tabular datasets. Silver medal finishes acr
 
 **Notable results:**
 
-| Competition | Rank | Score |
-|-------------|------|-------|
+| Competition                              | Rank                 | Score  |
+| ---------------------------------------- | -------------------- | ------ |
 | Quora Insincere Questions Classification | 173 / 4000+ (Top 5%) | Silver |
-| Ad Fraud Detection | 193 / 3900+ | Silver |
-| Computer Vision Data Science Bowl | 172 / 3634 | Silver |
+| Ad Fraud Detection                       | 193 / 3900+          | Silver |
+| Computer Vision Data Science Bowl        | 172 / 3634           | Silver |
 
 **What I learned:**
+
 - Ensemble methods and stacking for production-level accuracy gains
 - Efficient BERT fine-tuning before it was standard practice
 - Cross-validation strategies that actually generalize

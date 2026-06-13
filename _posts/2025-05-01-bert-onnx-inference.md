@@ -107,12 +107,12 @@ def predict(texts: list[str]) -> np.ndarray:
 
 ## Results
 
-| | PyTorch | ONNX (optimized) |
-|--|---------|-----------------|
-| Single doc (ms) | 120 | 95 |
-| Batch=8 (ms) | 380 | 290 |
-| Batch=32 (ms) | 1200 | 960 |
-| Accuracy | 89.1% | 89.1% |
+|                 | PyTorch | ONNX (optimized) |
+| --------------- | ------- | ---------------- |
+| Single doc (ms) | 120     | 95               |
+| Batch=8 (ms)    | 380     | 290              |
+| Batch=32 (ms)   | 1200    | 960              |
+| Accuracy        | 89.1%   | 89.1%            |
 
 **~21% speedup** on single doc inference, ~20% on batches. No accuracy regression — ONNX export is deterministic for inference.
 
@@ -128,4 +128,4 @@ def predict(texts: list[str]) -> np.ndarray:
 
 ---
 
-*Running this in a Celery worker? Add `num_threads` configuration to your `SessionOptions` to prevent ORT from spawning too many threads when you have many concurrent workers.*
+_Running this in a Celery worker? Add `num_threads` configuration to your `SessionOptions` to prevent ORT from spawning too many threads when you have many concurrent workers._

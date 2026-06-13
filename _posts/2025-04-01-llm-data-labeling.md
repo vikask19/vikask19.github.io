@@ -70,28 +70,28 @@ client = Client()
 
 def label_cluster(documents: list[str], max_retries: int = 3) -> dict:
     doc_text = "\n---\n".join(documents[:10])  # cap at 10 docs per call
-    
+
     for attempt in range(max_retries):
         response = client.generate(
             model="llama3:8b-instruct-q4_K_M",
             prompt=LABEL_PROMPT.format(documents=doc_text),
             options={"temperature": 0.1},  # low temp for consistency
         )
-        
+
         raw = response["response"].strip()
-        
+
         # Extract JSON even if wrapped in markdown code blocks
         json_match = re.search(r'\{.*\}', raw, re.DOTALL)
         if not json_match:
             continue
-            
+
         try:
             result = json.loads(json_match.group())
             if validate_output(result):
                 return result
         except json.JSONDecodeError:
             continue
-    
+
     # Fallback: return a low-confidence placeholder
     return {"topic_label": "Uncategorized", "keywords": [], "confidence": 0.0}
 
@@ -122,12 +122,12 @@ Not fast, but it ran overnight and the cost was effectively zero (no API fees, e
 
 We ran a manual evaluation on 500 clusters (ground truth labeled by human annotators):
 
-| Method | Label Accuracy | Keyword Relevance | Cost per 1k clusters |
-|--------|--------------|-------------------|---------------------|
-| Manual annotation | 92% | 94% | ~$150 |
-| GPT-4 API | 88% | 91% | ~$12 |
-| Llama 3 8B (q4) | 81% | 84% | ~$0.10 (electricity) |
-| Llama 3 70B (q4) | 86% | 89% | ~$0.80 (electricity) |
+| Method            | Label Accuracy | Keyword Relevance | Cost per 1k clusters |
+| ----------------- | -------------- | ----------------- | -------------------- |
+| Manual annotation | 92%            | 94%               | ~$150                |
+| GPT-4 API         | 88%            | 91%               | ~$12                 |
+| Llama 3 8B (q4)   | 81%            | 84%               | ~$0.10 (electricity) |
+| Llama 3 70B (q4)  | 86%            | 89%               | ~$0.80 (electricity) |
 
 The 8B model is good enough for bootstrapping training data; the 70B model is better for cases where label quality directly affects downstream model accuracy.
 
@@ -141,4 +141,4 @@ The 8B model is good enough for bootstrapping training data; the 70B model is be
 
 ---
 
-*The privacy + cost case for local LLMs is stronger than most teams realize. If your data can't leave the building, quantized local models are now genuinely good enough for many annotation tasks.*
+_The privacy + cost case for local LLMs is stronger than most teams realize. If your data can't leave the building, quantized local models are now genuinely good enough for many annotation tasks._

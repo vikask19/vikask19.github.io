@@ -18,6 +18,7 @@ Keyword search (Elasticsearch/BM25) handles volume well but falls apart on seman
 ## The Stack
 
 After evaluating several options, we landed on:
+
 - **Qdrant** as the vector database (self-hosted, on-prem requirement from enterprise clients)
 - **Sentence-transformers** (`all-mpnet-base-v2` initially, later domain-fine-tuned)
 - **FastAPI** serving layer with async batching
@@ -58,4 +59,4 @@ Getting to sub-600ms end-to-end (query → encode → ANN search → rerank → 
 
 ---
 
-*This is part of a series on ML systems we built at Lightbeam. Next up: how we got BERT inference 20% faster with ONNX.*
+_This is part of a series on ML systems we built at Lightbeam. Next up: how we got BERT inference 20% faster with ONNX._
