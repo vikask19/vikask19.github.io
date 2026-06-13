@@ -4,7 +4,7 @@ title: paper log
 permalink: /papers/
 description: Papers I've read, skimmed, or found worth tracking — mostly ML, NLP, and systems.
 nav: true
-nav_order: 2
+nav_order: 4
 ---
 
 A running log of papers I read. Not a curated reading list — just what I've actually gone through. I add brief notes on why it was interesting or what I took away.

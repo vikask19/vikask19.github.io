@@ -1,10 +1,10 @@
 ---
 layout: page
-title: blog radar
-permalink: /radar/
+title: reading
+permalink: /reading/
 description: Blogs and newsletters I actually read — ML engineering, systems, and the occasional rabbit hole.
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
 Sources I follow and find worth reading regularly. Organized by how I use them.

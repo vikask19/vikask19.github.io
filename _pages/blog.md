@@ -1,9 +1,9 @@
 ---
 layout: default
 permalink: /blog/
-title: blog radar
-nav: false
-nav_order: 5
+title: writing
+nav: true
+nav_order: 2
 pagination:
   enabled: true
   collection: posts

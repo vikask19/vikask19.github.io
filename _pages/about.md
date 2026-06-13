@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  ML Lead & Founding Engineer · <a href="https://lightbeam.ai" target="_blank">Lightbeam.ai</a> · Bangalore, India
+  Senior ML Engineer · <a href="https://uber.com" target="_blank">Uber</a> · Bangalore, India
 
 profile:
   align: right
@@ -21,23 +21,36 @@ announcements:
   enabled: false
 
 latest_posts:
-  enabled: false
+  enabled: true
+  scrollable: false
+  limit: 3
 ---
 
-I'm a machine learning engineer building production-scale AI systems that process and understand documents at scale. Currently ML Lead & Founding Engineer at [Lightbeam.ai](https://lightbeam.ai), where I grew from first ML hire to leading a team of 4+ engineers while architecting the core intelligence of the product.
+Hi, I'm Vikas Kumar — a Senior Machine Learning Engineer at **[Uber](https://uber.com)** with over 8 years of experience building, optimizing, and scaling production-grade AI systems.
 
-My work spans **NLP, computer vision, and LLMs** — from multi-stage document extraction pipelines handling 2–3 TB/day, to semantic search across 20M+ documents in sub-600ms latency, to deploying quantized Llama 3 for real-time data labeling.
+My expertise lies at the intersection of **NLP, Computer Vision, and Large Language Models** — specifically architecting high-throughput pipelines that transform messy, unstructured data into real-world enterprise intelligence.
 
-Before Lightbeam, I led AI engagements at **Deloitte** for Fortune 500 clients across insurance, healthcare, and media ($2M+ measurable ROI), and built deep learning systems at **EXL Analytics** — including an early ULMFiT-based email classifier achieving 89% accuracy in production.
+---
 
-I graduated from **IIT Kharagpur** with a dual degree (B.Tech + M.Tech) in Agricultural & Food Engineering.
+### Career Highlights
 
-On Kaggle, I'm a **Competitions Expert** with multiple silver medals across NLP and CV — Top 5% in Quora NLP (173/4000+), Computer Vision Data Science Bowl (172/3634), and Ad Fraud Detection (193/3900+). I've spoken at Kaggle Days and built NLP training curricula for 200+ engineers.
+**Uber · Senior ML Engineer**
+Currently designing and scaling high-performance ML systems for marketplace mechanics.
 
-This site tracks what I'm reading, building, and thinking about.
+**Lightbeam.ai · Founding ML Engineer & Lead**
+Joined as the first ML hire and grew the team to 5 engineers. Architected and deployed an on-premises multi-stage ML pipeline processing 2–3 TB of data per day (5M+ documents) for PII extraction and document classification. Designed a semantic search system over 50M+ documents with sub-600ms latency using embedding-based retrieval and quantized Llama 3 models.
+
+**Deloitte Consulting & EXL Analytics · Consultant**
+Led AI initiatives for Fortune 500 clients across healthcare and media, driving $2M+ in measurable ROI. Built early deep learning production pipelines, including a ULMFiT-based text classifier achieving 89% accuracy.
+
+---
+
+### Credentials & Community
+
+- **Education:** Dual Degree (B.Tech + M.Tech) from IIT Kharagpur
+- **Kaggle Competitions Expert:** Multiple silver medals (Top 5%) across NLP (Quora), Computer Vision (Data Science Bowl), and Ad Fraud Detection
+- **Mentorship:** Spoken at Kaggle Days · designed NLP training curricula for 200+ engineers
 
 ---
 
 **Stack:** Python · PyTorch · HuggingFace · Qdrant · Kafka · Celery · FastAPI · Docker · Kubernetes · DVC
-
-**Domains:** Document Understanding · Semantic Search · LLMs · NLP · Computer Vision · MLOps
