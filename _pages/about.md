@@ -21,9 +21,7 @@ announcements:
   enabled: false
 
 latest_posts:
-  enabled: true
-  scrollable: false
-  limit: 3
+  enabled: false
 ---
 
 Hi, I'm Vikas Kumar — a Senior Machine Learning Engineer at **[Uber](https://uber.com)** with over 8 years of experience building, optimizing, and scaling production-grade AI systems.
