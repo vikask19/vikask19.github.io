@@ -2,33 +2,44 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: >
+  ML Lead & Founding Engineer · <a href="https://lightbeam.ai" target="_blank">Lightbeam.ai</a> · Bangalore, India
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>📍 Bangalore, India</p>
+    <p>🎓 IIT Kharagpur, 2017</p>
+    <p>🏅 Kaggle Competitions Expert</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a machine learning engineer building production-scale AI systems that process and understand documents at scale. Currently ML Lead & Founding Engineer at [Lightbeam.ai](https://lightbeam.ai), where I grew from first ML hire to leading a team of 4+ engineers while architecting the core intelligence of the product.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My work spans **NLP, computer vision, and LLMs** — from multi-stage document extraction pipelines handling 2–3 TB/day, to semantic search across 20M+ documents in sub-600ms latency, to deploying quantized Llama 3 for real-time data labeling.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before Lightbeam, I led AI engagements at **Deloitte** for Fortune 500 clients across insurance, healthcare, and media ($2M+ measurable ROI), and built deep learning systems at **EXL Analytics** — including an early ULMFiT-based email classifier achieving 89% accuracy in production.
+
+I graduated from **IIT Kharagpur** with a dual degree (B.Tech + M.Tech) in Agricultural & Food Engineering.
+
+On Kaggle, I'm a **Competitions Expert** with multiple silver medals across NLP and CV — Top 5% in Quora NLP (173/4000+), Computer Vision Data Science Bowl (172/3634), and Ad Fraud Detection (193/3900+). I've spoken at Kaggle Days and built NLP training curricula for 200+ engineers.
+
+This site tracks what I'm reading, building, and thinking about.
+
+---
+
+**Stack:** Python · PyTorch · HuggingFace · Qdrant · Kafka · Celery · FastAPI · Docker · Kubernetes · DVC
+
+**Domains:** Document Understanding · Semantic Search · LLMs · NLP · Computer Vision · MLOps
