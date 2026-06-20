@@ -1,13 +1,13 @@
 ---
 layout: page
-title: mle path
+title: MLE Path
 permalink: /mle-path/
-description: Resources and structure I use to prepare for Machine Learning Engineer interviews.
+description: What I've used across MLE interview cycles — resources, structure, and what actually matters at the senior level.
 nav: true
 nav_order: 3
 ---
 
-A running reference for engineers preparing for MLE interviews. MLE loops typically test coding, ML fundamentals, ML system design, project depth, and behavioral signals — in varying weight depending on the company.
+Notes from my own prep cycles — what I used, what worked, and how I'd structure it if starting over. Weighted toward ML system design and fundamentals, since those carry the most signal in senior MLE loops.
 
 ---
 
