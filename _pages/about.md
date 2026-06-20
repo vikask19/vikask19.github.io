@@ -24,31 +24,10 @@ latest_posts:
   enabled: false
 ---
 
-Hi, I'm Vikas Kumar — a Senior Machine Learning Engineer at **[Uber](https://uber.com)** with over 8 years of experience building, optimizing, and scaling production-grade AI systems.
+I'm Vikas Kumar, a Senior Machine Learning Engineer at **[Uber](https://uber.com)**, where I work on ML systems for marketplace mechanics.
 
-My expertise lies at the intersection of **NLP, Computer Vision, and Large Language Models** — specifically architecting high-throughput pipelines that transform messy, unstructured data into real-world enterprise intelligence.
+Previously, I was the founding ML engineer at **[Lightbeam.ai](https://lightbeam.ai)**, joining as the first ML hire and eventually growing into ML Lead. Over four years I built and scaled the core AI platform — an on-premises multi-stage pipeline processing 2–3 TB of data daily across millions of documents for PII extraction and document classification. I designed a semantic search system over 20M+ documents achieving sub-600ms latency using Qdrant, and deployed quantized Llama 3 for large-scale document labeling and classification.
 
----
+Before Lightbeam, I was a consultant at **Deloitte Consulting USI**, leading applied AI engagements for Fortune 500 clients across insurance, healthcare, and media. I built NLP pipelines — BERT and XGBoost classifiers, entity extraction systems — that generated $2M+ in measurable ROI. I started my career at **EXL Analytics**, building early production deep learning systems: ULMFiT-based email classifiers, computer vision pipelines with Mask R-CNN for document understanding, and an in-house speech recognition platform using DeepSpeech and WaveNet.
 
-### Career Highlights
-
-**Uber · Senior ML Engineer**
-Currently designing and scaling high-performance ML systems for marketplace mechanics.
-
-**Lightbeam.ai · Founding ML Engineer & Lead**
-Joined as the first ML hire and grew the team to 5 engineers. Architected and deployed an on-premises multi-stage ML pipeline processing 2–3 TB of data per day (5M+ documents) for PII extraction and document classification. Designed a semantic search system over 50M+ documents with sub-600ms latency using embedding-based retrieval and quantized Llama 3 models.
-
-**Deloitte Consulting & EXL Analytics · Consultant**
-Led AI initiatives for Fortune 500 clients across healthcare and media, driving $2M+ in measurable ROI. Built early deep learning production pipelines, including a ULMFiT-based text classifier achieving 89% accuracy.
-
----
-
-### Credentials & Community
-
-- **Education:** Dual Degree (B.Tech + M.Tech) from IIT Kharagpur
-- **Kaggle Competitions Expert:** Multiple silver medals (Top 5%) across NLP (Quora), Computer Vision (Data Science Bowl), and Ad Fraud Detection
-- **Mentorship:** Spoken at Kaggle Days · designed NLP training curricula for 200+ engineers
-
----
-
-**Stack:** Python · PyTorch · HuggingFace · Qdrant · Kafka · Celery · FastAPI · Docker · Kubernetes · DVC
+I graduated from **[IIT Kharagpur](https://www.iitkgp.ac.in)** with a dual degree (B.Tech + M.Tech). I'm a Kaggle Competitions Expert with multiple silver medals (Top 5%) across NLP, computer vision, and fraud detection. I've spoken at Kaggle Days and designed NLP training curricula for 200+ engineers.
