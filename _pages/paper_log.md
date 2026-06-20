@@ -13,6 +13,4 @@ What I read and why. Papers I've gone through, blogs I follow regularly.
 
 ## Blogs
 
-
 ## Papers
-
