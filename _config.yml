@@ -7,9 +7,9 @@ first_name: Vikas
 middle_name:
 last_name: Kumar
 contact_note: >
-  Best reached via email or LinkedIn.
+  Best reached on <a href="https://linkedin.com/in/vikashiitkgp" target="_blank">LinkedIn</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  ML Lead & Founding Engineer at Lightbeam.ai. Building production-scale NLP, LLM, and computer vision systems. IIT Kharagpur alumnus. Kaggle Competitions Expert.
+  Senior ML Engineer at Uber. Building production-scale NLP, LLM, and ML systems. IIT Kharagpur alumnus. Kaggle Competitions Expert.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
